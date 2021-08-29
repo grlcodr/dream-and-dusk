@@ -7,3 +7,4 @@ The brief is to create a product landing page - for this project, I am using a f
 
 Imagery from [Unsplash](http://www.unsplash.com).
 Color palette from [Coolors](https://coolors.co/generate).
+Makeup icon from [Flaticon](https://www.flaticon.com/authors/photo3idea-studio).
