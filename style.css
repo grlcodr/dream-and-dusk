@@ -1,0 +1,13 @@
+.circle-images img {
+    width: 300px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.makeup-banner {
+    width: 100%;
+}
+
+header img {
+    width: 50px;
+}
