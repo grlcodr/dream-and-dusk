@@ -5,22 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Dream and Dusk</title>
 </head>
 <body>
     <header id="header">
-        <img src="assets/cosmetics.png" alt="" id="header-img">
-        <nav id="nav-bar">
-            <ul>
-                <li class="nav-link"><a href="#header">Home</a></li>
-                <li class="nav-link"><a href="#our-story">Our Story</a></li>
-                <li class="nav-link"><a href="#">Shop</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top" id="nav-bar">
+            <img src="assets/logo.png" id="header-img">
+            <a class="navbar-brand" href="header">
+                Dream & Dusk
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#our-story">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#launch">Launch</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
     <main>
         <section id="our-story">
             <img src="/assets/dream-and-dusk.jpg" alt="Assorted cosmetics shot from about" class="makeup-banner">
+            <h3 class="section-titles">Our Story</h3>
             <p class="story-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit incidunt dolorem distinctio omnis, ipsum placeat autem, dignissimos magni fugiat corporis assumenda repellat obcaecati. Voluptatum facilis perferendis dicta incidunt quas ut. Similique odit odio provident aliquid. Soluta nostrum cupiditate fugiat ducimus. Repellendus dolores aperiam totam sed at odio vero deleniti sequi vel assumenda! Quidem quam, voluptatem culpa repudiandae repellat deleniti rem, voluptatibus consequatur distinctio similique expedita eveniet alias fugit quaerat impedit dolore, qui reprehenderit ipsum repellendus harum totam? Iusto, culpa corporis tenetur et molestiae ducimus maiores iste ratione sunt rem nisi vitae labore nemo dolorem temporibus voluptate. Ullam animi hic beatae.
             </p>
@@ -30,7 +46,28 @@
                 <img src="/assets/circle3.jpeg" alt="Tooth brushes and eucalyptus">
             </div>
         </section>
+        <section id="launch">
+            <video src="/assets/bath-video.mp4" id="video" controls></video>
+            <div class="form">
+                <h3 class="section-titles">Launch Signup</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae doloremque optio veniam ab alias reiciendis harum id rem aliquam. </p>
+                <form action="" id="form">
+                    <div class="form-elements">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-elements">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@web.com">
+                    </div>
+                       <input type="submit" id="submit">
+                </form>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

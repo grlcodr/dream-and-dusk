@@ -1,13 +1,195 @@
-.circle-images img {
-    width: 300px;
-    border-radius: 50%;
-    filter: grayscale(100%);
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
+
+@media only screen and (min-width: 1001px) {
+    .circle-images img {
+        width: 300px;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        padding: 20px;
+    }
+
+    .circle-images {
+        margin: 40px 40px 40px 40px;
+    }
+    
+    .makeup-banner {
+        width: 100%;
+    }
+
+    .story-text {
+        margin: 30px;
+        text-align: center;
+    }
+
+    #our-story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #our-story h3 {
+        margin-top: 50px;
+        margin-bottom: -10px;
+    }
+
+    #launch {
+        display: flex;
+    }
+
+    #form {
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .form p {
+        text-align: center;
+        padding: 10px;
+        width: 80%;
+    }
+
+    video {
+        max-width: 50%;
+        margin: 30px;
+        border-radius: 10px;
+    }
+    
+    header img {
+        width: 60px;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-family: 'Caveat', cursive;
+        font-size: 2rem !important;
+    }
+
+    .nav-item {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .section-titles {
+        font-family: 'Caveat', cursive;
+        font-size: 2rem;
+    }
+
+    label {
+        font-family: 'Caveat', cursive;
+        font-size: 1.5rem;
+        padding-right: 10px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+
+    #submit {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
 }
 
-.makeup-banner {
-    width: 100%;
-}
+@media only screen and (max-width: 1000px) {
+    .makeup-banner {
+        margin-top: 50px;
+        width: 100%;
+    }
 
-header img {
-    width: 50px;
+    .story-text {
+        margin: 30px;
+        text-align: center;
+    }
+
+    .circle-images {
+        text-align: center;
+        margin: 20px;
+    }
+    .circle-images img {
+        width: 300px;
+        border-radius: 50%;
+        padding: 10px;
+        filter: grayscale(100%);
+    }
+    #our-story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #our-story h3 {
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+    video {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #launch {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #launch h3 {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #form {
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        width: 50px;
+        padding: 5px;
+    }
+
+    .navbar-brand {
+        font-family: 'Caveat', cursive;
+        font-size: 30px !important;
+    }
+
+    .nav-item {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .section-titles {
+        font-family: 'Caveat', cursive;
+        font-size: 2rem;
+    }
+
+    label {
+        font-family: 'Caveat', cursive;
+        font-size: 1.5rem;
+        padding-right: 10px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+
+    #submit {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+    }
 }
